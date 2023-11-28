@@ -632,7 +632,6 @@ def passwrd():
 					pwv.append(frs+'1234567890')
 					pwv.append(frs+'123456789')
 					pwv.append(frs+'0987654321')
-                    pwv.append(frs+lst+'@123)
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
@@ -649,7 +648,6 @@ def passwrd():
 					pwv.append(frs+'1234567890')
 					pwv.append('123456789')
 					pwv.append(frs+'0987654321')
-                    pwv.append(frs+lst+'@123)
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
