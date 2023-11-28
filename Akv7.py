@@ -141,8 +141,8 @@ def banner():
 ▒█▄▄█ ▒█▀▄░ 　 　 ▒█▀▀▄ ▒█▄▄▀ ▒█▄▄█ ▒█▒█▒█ ▒█░▒█ 
 ▒█░▒█ ▒█░▒█ 　 　 ▒█▄▄█ ▒█░▒█ ▒█░▒█ ▒█░░▀█ ▒█▄▄▀ v⁷
  
-\33[mGithub: https://github.com/00AkBrand
-\33[mFacebook UID: https://www.facebook.com/profile.php?id=100091869295293
+\33[mGithub: https://github.com/00AkBrand    
+\33[mFacebook UID: https://www.facebook.com/profile.php?id=100091869295293   
  '''
 	cetak(nel(ban, style='green'))
 os.system("clear")
@@ -203,7 +203,7 @@ def menu(my_name,my_id):
 	cetak(nel('\t[bold cyan]     CHOOSE  THE OPTION  YOU WANT   '))
 	print('')
 	cetak(nel('[bold green] 1. Crack Public\n 2. Remove Cookies\n @. Contact Owner\n [F]FACEBOOK [bold green]')) 
-	_____cowok__pink_____ = input('\nâž¥âž¥âž£Choose : ')
+	_____cowok__pink_____ = input('\Choose : ')
 	if _____cowok__pink_____ in ['1']:
 		dump_massal()
 	if _____cowok__pink_____ in ['F','f']:
